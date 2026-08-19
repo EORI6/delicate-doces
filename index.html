@@ -3,11 +3,145 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Delicate Pães de Mel</title>
+
+    <title>Delicate Pão de Mel</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background: linear-gradient(135deg, #ef6f87, #f48ca0);
+            color: white;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 30px;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 850px;
+        }
+
+        .logo {
+            width: 100%;
+            max-width: 420px;
+            margin-bottom: 35px;
+        }
+
+        h1 {
+            font-family: Georgia, "Times New Roman", serif;
+            font-size: 52px;
+            font-weight: normal;
+            letter-spacing: 4px;
+            margin-bottom: 10px;
+        }
+
+        .subtitulo {
+            font-size: 20px;
+            letter-spacing: 8px;
+            text-transform: uppercase;
+            margin-bottom: 45px;
+        }
+
+        .linha {
+            width: 80px;
+            height: 2px;
+            background: white;
+            margin: 0 auto 35px;
+            opacity: 0.8;
+        }
+
+        h2 {
+            font-size: 28px;
+            margin-bottom: 18px;
+            font-weight: 500;
+        }
+
+        p {
+            font-size: 18px;
+            line-height: 1.7;
+            max-width: 620px;
+            margin: 0 auto;
+        }
+
+        .destaque {
+            margin-top: 35px;
+            padding: 14px 28px;
+            display: inline-block;
+            border: 1px solid rgba(255,255,255,0.7);
+            border-radius: 40px;
+            font-size: 15px;
+            letter-spacing: 2px;
+        }
+
+        footer {
+            margin-top: 60px;
+            font-size: 13px;
+            opacity: 0.8;
+        }
+
+        @media (max-width: 600px) {
+
+            h1 {
+                font-size: 36px;
+            }
+
+            .subtitulo {
+                font-size: 15px;
+                letter-spacing: 5px;
+            }
+
+            h2 {
+                font-size: 23px;
+            }
+
+            p {
+                font-size: 16px;
+            }
+
+            .logo {
+                max-width: 280px;
+            }
+        }
+    </style>
 </head>
+
 <body>
-    <h1>Delicate Pães de Mel</h1>
-    <h2>Site em construção 🍯</h2>
-    <p>Em breve teremos novidades, deliciosas!</p>
+
+    <main class="container">
+
+        <h1>DELICATE</h1>
+
+        <div class="subtitulo">
+            Pão de Mel
+        </div>
+
+        <div class="linha"></div>
+
+        <h2>Um doce feito para momentos especiais.</h2>
+
+        <p>
+            Estamos preparando um espaço especial para apresentar
+            nossos produtos, sabores e novidades.
+        </p>
+
+        <div class="destaque">
+            EM BREVE, NOSSO NOVO SITE
+        </div>
+
+        <footer>
+            © 2026 Delicate Pão de Mel
+        </footer>
+
+    </main>
+
 </body>
 </html>
